@@ -41,7 +41,6 @@ type Node struct {
 	keyinfoStore   keyinfo.Store
 	ecdsaPreParams []*keygen.LocalPreParams
 	identityStore  identity.Store
-	chainCode      []byte
 	peerRegistry   PeerRegistry
 }
 
